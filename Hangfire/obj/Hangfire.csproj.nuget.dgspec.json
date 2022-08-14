@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\Hangfire\\Hangfire.csproj": {}
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Hangfire\\Hangfire.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\Hangfire\\Hangfire.csproj": {
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Hangfire\\Hangfire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\Hangfire\\Hangfire.csproj",
+        "projectUniqueName": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Hangfire\\Hangfire.csproj",
         "projectName": "Hangfire",
-        "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\Hangfire\\Hangfire.csproj",
+        "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Hangfire\\Hangfire.csproj",
         "packagesPath": "C:\\Users\\WII\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\Hangfire\\obj\\",
+        "outputPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Hangfire\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WII\\AppData\\Roaming\\NuGet\\NuGet.Config",

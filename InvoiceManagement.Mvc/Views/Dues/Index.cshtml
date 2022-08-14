@@ -29,7 +29,7 @@
                     <td> @dues.DueAmount</td>
                     <td> @dues.PaymentType</td>
                     <td> @dues.DueDate</td>
-                    <td> @dues.billingDate</td>
+                    <td> @dues.billingDate.ToString("dd/MM/yyyy")</td>
                     <td>
                         @if(@dues.Status==false)
                         {

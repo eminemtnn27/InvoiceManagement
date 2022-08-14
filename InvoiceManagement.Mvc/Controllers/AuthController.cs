@@ -72,12 +72,11 @@ namespace InvoiceManagement.Mvc.Controllers
                     }
                     else if (role.Equals("User"))
                     {
-                        return Redirect("Home/Index");
-                        //return RedirectToAction("UserActionName", "UserControllerName");
+                        return Redirect("Home/Index"); 
                     }
                     else
                     {
-                        //do something here. put in your logic 
+                        
                     }
                 }
             }

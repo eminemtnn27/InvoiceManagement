@@ -23,6 +23,7 @@ namespace InvoiceManagement.Mvc.Controllers
         }
         public IActionResult Index()
         {
+            var d = _context.users.ToList();
             return View(_context.messages.ToList());
         }
         public ActionResult Inbox()
@@ -60,32 +61,17 @@ namespace InvoiceManagement.Mvc.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public ActionResult NewMessage(Message p)
+        public IActionResult Create()
         {
-            var userMail = User.Identity.Name;
-            p.User.Email= userMail;
-            //ValidationResult result = messagevalidator.Validate(p);
-            //if ()
-            //{
-            //    //foreach (var item in result.ErrorMessage)
-            //    //{
-            //    //    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-            //    //}
-            //}
-            //else
-            //{
-            //    p.MessageDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-            //    mm.TAdd(p);
-            //    return RedirectToAction("Sendbox");
-            //}
             return View();
-
         }
-
-        public PartialViewResult asideBarUser()
+        [HttpPost]
+        public IActionResult Create(Message model, int FlatId)
         {
-            return PartialView();
+            _context.messages.Add(model);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+
         }
     }
 }

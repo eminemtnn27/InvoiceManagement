@@ -1,5 +1,4 @@
-﻿ 
- 
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,8 +29,8 @@
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
-                  @*<h5 class="mb-0 font-weight-normal"> @User.Identity.Name</h5>*@
-                  @*<span>  @User.Identity.AuthenticationType</span>*@
+                  <h5 class="mb-0 font-weight-normal"> @User.Identity.Name</h5>
+                  <span>  @User.Identity.AuthenticationType </span>
                 </div>
               </div>
               <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
@@ -83,22 +82,6 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <span class="menu-icon">
-                <i class="mdi mdi-laptop"></i>
-              </span>
-              <span class="menu-title">Genel Bilgiler</span>
-              <i class="menu-arrow"></i>
-            </a>
-           @* <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
-              </ul>
-            </div>*@
-          </li> 
-          <li class="nav-item menu-items">
             <a class="nav-link" asp-action="Index" asp-controller="User">
               <span class="menu-icon">
                 <i class="mdi mdi-table-large"></i>
@@ -123,28 +106,26 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" asp-action="Index" asp-controller="CreditCard" aria-expanded="false" aria-controls="auth">
+            <a class="nav-link"   asp-action="List" asp-controller="CreditCardApi"  >
               <span class="menu-icon">
                 <i class="mdi mdi-security"></i>
               </span>
               <span class="menu-title">Ödeme Bilgileri</span>
-              <i class="menu-arrow"></i>
+              @*<i class="menu-arrow"></i>*@
             </a>
-           @* <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-              </ul>
-            </div>*@
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link"   asp-action="Index" asp-controller="CreditCardApi"  >
+              <span class="menu-icon">
+                <i class="mdi mdi-security"></i>
+              </span>
+              <span class="menu-title">Ödeme Yap</span>
+              </a>
           </li> 
         </ul>
       </nav>
       <!-- partial -->
       <div class="container-fluid page-body-wrapper">
-        <!-- partial:partials/_navbar.html -->
         <nav class="navbar p-0 fixed-top d-flex flex-row">
           <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
             <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
@@ -207,33 +188,39 @@
                 </a>
               </li>
               <li class="nav-item dropdown border-left">
-                <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown"    data-toggle="dropdown" aria-expanded="false">
+                <a  class="nav-link count-indicator dropdown-toggle" id="messageDropdown"    data-toggle="dropdown" aria-expanded="false">
                   <i class="mdi mdi-email"></i>
                   <span class="count bg-success"></span>
                 </a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown" style="width:220px;">
                   <h6 class="p-3 mb-0">Mesajlar</h6>
+                 
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <img src="assets/images/faces/face23.jpg" alt="image" class="rounded-circle profile-pic">
-                    </div>
-                       @* @if(Model!=null)
+                 @* @if(Model!=null)
                         { 
                             @foreach (var m in Model)
                             {
-                            <div class="preview-item-content">
-                                <p class="preview-subject ellipsis mb-1">@Html.DisplayFor(modelitem=>m.MessageStatus)</p>
-                                <p class="preview-subject ellipsis mb-1">Sana bir mesaj gönderdi</p>
-                                <p class="text-muted mb-0"> @Html.DisplayFor(modelitem=>m.MessageDate.Minute) önce</p>
-                            </div> 
-                            }
-                        }*@
-                  </a>
+                      <a class="dropdown-item preview-item" asp-action="Inbox" asp-controller="Messages">
+                        
+                        <div class="preview-item-content">
+                       
+                            <img class="img-xs rounded-circle profile-pic" src="/assets/images/faces/face23.jpg" alt=""> 
+                            <p class="preview-subject ellipsis mb-1">@Html.DisplayFor(modelitem=>m.User.Name) @Html.DisplayFor(modelitem=>m.User.Surname)</p>
+                            <p class="preview-subject ellipsis mb-1">Sana bir mesaj gönderdi</p>
+                            <p class="preview-subject ellipsis mb-1 " >@Html.DisplayFor(modelitem=>m.MessageStatus) </p>
+                            <p class="text-muted mb-0"> @Html.DisplayFor(modelitem=>m.MessageDate.Minute) dakika önce</p>
+                            <br>
+                   
+                        </div> 
+                      
+                      </a>
+                     }
+                        }   *@
                   <div class="dropdown-divider"></div>
                   <p class="p-3 mb-0 text-center">
                       <a asp-action="Index" asp-controller="Messages">Tüm Mesajlar</a>
                       </p>
+                     
                 </div>
               </li>
               <li class="nav-item dropdown border-left">
@@ -302,9 +289,7 @@
                    <div class="preview-item-content">
                       <p class="preview-subject mb-1"  >Çıkış Yap</p>                      
                     </div>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <p class="p-3 mb-0 text-center">Gelişmiş Ayarlar</p>
+                  </a> 
                 </div>
               </li>
             </ul>

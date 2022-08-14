@@ -1,0 +1,54 @@
+﻿ 
+@model IList<EntityLayer.Concrete.Payment>
+
+<div class="row container col-md d-flex justify-content-center">
+    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card"> 
+        <div class="card-body">
+             <a style="float: right;" asp-action="Index" asp-controller="CreditCardApi"   class="btn btn-outline-success">Ödeme Yap</a>
+        <h4 class="card-title">Ödeme Bilgileri</h4>
+        <div class="table-responsive">
+            <table class="table">
+            <thead>
+                <tr>  
+                <th> Daire No </th>
+                <th> Borç</th>
+                <th> Ödeme Tarihi </th>
+                <th> Ödeyen </th>
+                <th> Ödeme Durumu </th>
+                <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pay in Model )
+                    { 
+                      <tr> 
+                    <td>@pay.flat.FlatNo </td>
+                    <td> @pay.BillingSum</td>
+                    <td> @pay.BillingDate.ToString("dd/MM/yyyy")</td>
+                    <td> @pay.flat.FlatOwnerName</td>
+                    <td>
+                        @if(@pay.IsPaid==false)
+                        {
+                            <span>Ödenmedi</span>
+                        }
+                        else
+                        {
+                            <span>Ödendi</span>
+                        }
+                    </td>                    
+                    <td> 
+                        <form action="/CreditCardApi/Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="FlatId" value="@pay.FlatId">
+                        <button type="submit"  class="btn btn-outline-danger" >Sil</button>
+                        </form>
+                    </td> 
+                </tr>    
+                }               
+            </tbody>
+            </table> 
+        </div>
+        </div>
+    </div>
+    </div>
+</div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\WII\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WII\\AppData\\Roaming\\NuGet\\NuGet.Config",

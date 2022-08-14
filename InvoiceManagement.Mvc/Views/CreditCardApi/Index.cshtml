@@ -1,19 +1,14 @@
 ﻿@using InvoiceManagement.WebApi.Controllers
 @model InvoiceManagement.WebApi.Entities.CreditCard
-@{
-    ViewData["Title"] = "Index";
-    Layout = "_Layout.cshtml";
-}
-
-@await Component.InvokeAsync("GetPayment",new {id=ViewBag.d})
-<div class="col-md-12 grid-margin stretch-card">
+@*@await Component.InvokeAsync("GetPayment",new {id=ViewBag.d})*@
+ <div class="col-md-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Borç Ödeme Arayüzü</h4>
+            <h4 class="card-title">Borç Ödeme Ekranı</h4>
             
-            <form method="post" class="forms-sample">
+            <form method="post" asp-controller="CreditCardApi" asp-action="Index" class="forms-sample">
                 <label>Kart Numaranız</label>
-                @Html.TextBoxFor(x => x.CardNumber, new { @class="form-control"})
+                @Html.TextBoxFor(x => x.CardNumber, new { @class="form-control" })
                 <br />
                 <label>Son Kullanım Tarihi</label>
                 @Html.TextBoxFor(x => x.ExpireDate, new { @class="form-control"})
@@ -22,7 +17,7 @@
                 @Html.TextBoxFor(x => x.CVC, new { @class="form-control"})
                  <br />                
 
-               <button type="submit" class="btn btn-outline-info">Borç Öde</button>
+               <button type="submit" class="btn btn-outline-success">Ödeme Yap</button>
 
             </form>
         </div>

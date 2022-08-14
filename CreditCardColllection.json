@@ -1,0 +1,43 @@
+[{
+  "_id": "131341351454",
+  "CardNumber": "1435145",
+  "CVC": "343",
+  "ExpireDate": "string",
+  "UserId": 0,
+  "Balance": "0"
+},{
+  "_id": "12341354514",
+  "CardNumber": "1324524",
+  "CVC": "234",
+  "ExpireDate": "string",
+  "UserId": 0,
+  "Balance": "0"
+},{
+  "_id": "4234544345",
+  "CardNumber": "32342",
+  "CVC": "4343",
+  "ExpireDate": "string",
+  "UserId": 0,
+  "Balance": "0"
+},{
+  "_id": "1234562345",
+  "CardNumber": "12345678",
+  "CVC": "123",
+  "ExpireDate": "22/11/2020",
+  "UserId": 1,
+  "Balance": "0"
+},{
+  "_id": "2",
+  "CardNumber": "2345678934567234",
+  "CVC": "234",
+  "ExpireDate": "23/11/1995",
+  "UserId": 1,
+  "Balance": "0"
+},{
+  "_id": "18",
+  "CardNumber": "2345677888",
+  "CVC": "456",
+  "ExpireDate": "23/11/2022",
+  "UserId": 1,
+  "Balance": "0"
+}]

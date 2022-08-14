@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DlGoXyTAg5+Rm5tz81nfoMdmqQNkM3mvVt1pAfpaP0UF6jQsHwtf4d8we19jBM3G0SoPmnHCkn5LY0tCaaSzdw==",
+  "dgSpecHash": "0nWqV5Arv4QfHN2YIZgiXrriQq9nLLpGp6Kc/w0n/4o9Tkhje2fVOqIee1KazcsYdNM8VsK8RX9XzgkG+WPGUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WII\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
     "C:\\Users\\WII\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

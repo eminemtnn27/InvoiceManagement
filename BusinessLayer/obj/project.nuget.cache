@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mdzSfYuSN+Nj1GFyN57JL5p1l2z/sCUQAHDRtt5T1tphupdcWv4GskCo+d3RhWwVcMn3S0028iqv+CU5hSg4Qw==",
+  "dgSpecHash": "tbhXsN3xncbqvqhxpSc2I1SyNqkhn7OIkNt2vlzBgR3VasjkCrmiXS2szHrX46qrZmwLUPLKWqH5gYKTih4Z2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WII\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
     "C:\\Users\\WII\\.nuget\\packages\\fluentvalidation\\11.1.1\\fluentvalidation.11.1.1.nupkg.sha512",

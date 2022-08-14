@@ -30,8 +30,8 @@
                     <td> @invoice.Amount</td>
                     <td> @invoice.PaymentType</td>
                     <td> @invoice.User.Name @invoice.User.Surname </td>
-                    <td> @invoice.DueDate.Date</td>
-                    <td> @invoice.billingDate.Date</td>
+                    <td> @invoice.DueDate.Date.ToString("dd/MM/yyyy")</td>
+                    <td> @invoice.billingDate.Date.ToString("dd/MM/yyyy")</td>
                     <td>
                         @if(@invoice.Status==false)
                         {

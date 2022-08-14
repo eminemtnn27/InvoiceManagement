@@ -76,44 +76,14 @@ namespace DAL.Migrations
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("FlatId");
-
-                    b.ToTable("flats");
-                });
-
-            modelBuilder.Entity("EntityLayer.Concrete.House", b =>
-                {
-                    b.Property<int>("HouseId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("Block")
-                        .HasColumnType("int");
-
-                    b.Property<int>("HouseNumber")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsEmpty")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("Layer")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Subscription")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Type")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("HouseId");
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Houses");
+                    b.ToTable("flats");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Invoice", b =>
@@ -176,7 +146,7 @@ namespace DAL.Migrations
                     b.Property<string>("Subject")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UserId")
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("MessageId");
@@ -256,11 +226,13 @@ namespace DAL.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.House", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Flat", b =>
                 {
                     b.HasOne("EntityLayer.Concrete.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
+                        .WithMany("flat")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });
@@ -278,11 +250,13 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("EntityLayer.Concrete.Message", b =>
                 {
-                    b.HasOne("EntityLayer.Concrete.User", "user")
-                        .WithMany()
-                        .HasForeignKey("UserId");
+                    b.HasOne("EntityLayer.Concrete.User", "User")
+                        .WithMany("messages")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("user");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Payment", b =>
@@ -300,7 +274,11 @@ namespace DAL.Migrations
                 {
                     b.Navigation("due");
 
+                    b.Navigation("flat");
+
                     b.Navigation("Invoice");
+
+                    b.Navigation("messages");
                 });
 #pragma warning restore 612, 618
         }

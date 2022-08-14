@@ -18,7 +18,6 @@ namespace DAL.Concrete
         public DbSet<Invoice> invoice { get; set; }
         public DbSet<Dues> dues { get; set; }
         public DbSet<Message> messages { get; set; }
-        public DbSet<House> Houses { get; set; }
         public DbSet<Payment> Payments { get; set; }
 
          
@@ -32,6 +31,12 @@ namespace DAL.Concrete
             
             modelBuilder.Entity<User>()
             .HasMany(s => s.messages)
+            .WithOne(t => t.User)
+            .HasForeignKey(prop => prop.UserId);
+            base.OnModelCreating(modelBuilder);
+
+             modelBuilder.Entity<User>()
+            .HasMany(s => s.flat)
             .WithOne(t => t.User)
             .HasForeignKey(prop => prop.UserId);
             base.OnModelCreating(modelBuilder);

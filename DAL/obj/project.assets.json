@@ -9695,11 +9695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\WII\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9716,8 +9716,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

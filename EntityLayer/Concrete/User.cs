@@ -24,6 +24,7 @@ namespace EntityLayer.Concrete
         public ICollection<Invoice> Invoice { get; set; }
 
         public ICollection<Message> messages { get; set; }
+        public ICollection<Flat> flat { get; set; }
 
     }
 }

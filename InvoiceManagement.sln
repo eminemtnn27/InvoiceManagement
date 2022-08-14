@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cache", "Cache\Cache.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire", "Hangfire\Hangfire.csproj", "{D785CF61-9226-429E-96B1-A17BB12E69AD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{027EBA96-FE04-4E4F-88B7-BB506B8E7315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.UnitTests", "Tests\WebApi.UnitTests\WebApi.UnitTests.csproj", "{628E473D-AA4B-45A3-A4E7-C02B631E0A5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,11 +55,18 @@ Global
 		{D785CF61-9226-429E-96B1-A17BB12E69AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D785CF61-9226-429E-96B1-A17BB12E69AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D785CF61-9226-429E-96B1-A17BB12E69AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628E473D-AA4B-45A3-A4E7-C02B631E0A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628E473D-AA4B-45A3-A4E7-C02B631E0A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628E473D-AA4B-45A3-A4E7-C02B631E0A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628E473D-AA4B-45A3-A4E7-C02B631E0A5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69FBC1A8-BA61-4C5D-9F08-6138249264AE}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{628E473D-AA4B-45A3-A4E7-C02B631E0A5F} = {027EBA96-FE04-4E4F-88B7-BB506B8E7315}
 	EndGlobalSection
 EndGlobal

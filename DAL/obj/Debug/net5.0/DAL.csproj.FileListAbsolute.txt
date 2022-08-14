@@ -34,3 +34,21 @@ C:\Users\WII\Desktop\13.08\InvoiceManagement\DAL\obj\Debug\net5.0\refint\DAL.dll
 C:\Users\WII\Desktop\13.08\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.pdb
 C:\Users\WII\Desktop\13.08\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
 C:\Users\WII\Desktop\13.08\InvoiceManagement\DAL\obj\Debug\net5.0\ref\DAL.dll
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\bin\Debug\net5.0\DAL.deps.json
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\bin\Debug\net5.0\DAL.runtimeconfig.json
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\bin\Debug\net5.0\DAL.runtimeconfig.dev.json
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\bin\Debug\net5.0\DAL.dll
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\bin\Debug\net5.0\DAL.pdb
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.csproj.CopyComplete
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.dll
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\refint\DAL.dll
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.pdb
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
+C:\Users\WII\Desktop\Tödeb Bitirme Projesi\InvoiceManagement\DAL\obj\Debug\net5.0\ref\DAL.dll

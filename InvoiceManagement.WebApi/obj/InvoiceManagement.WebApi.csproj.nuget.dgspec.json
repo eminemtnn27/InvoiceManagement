@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\InvoiceManagement.WebApi\\InvoiceManagement.WebApi.csproj": {}
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\InvoiceManagement.WebApi\\InvoiceManagement.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\DAL.csproj": {
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\WII\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\WII\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,14 +160,14 @@
         }
       }
     },
-    "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\InvoiceManagement.WebApi\\InvoiceManagement.WebApi.csproj": {
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\InvoiceManagement.WebApi\\InvoiceManagement.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\InvoiceManagement.WebApi\\InvoiceManagement.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\InvoiceManagement.WebApi\\InvoiceManagement.WebApi.csproj",
         "projectName": "InvoiceManagement.WebApi",
-        "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\InvoiceManagement.WebApi\\InvoiceManagement.WebApi.csproj",
+        "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\InvoiceManagement.WebApi\\InvoiceManagement.WebApi.csproj",
         "packagesPath": "C:\\Users\\WII\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\InvoiceManagement.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\InvoiceManagement.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WII\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,8 +184,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\DAL\\DAL.csproj"
+              "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj": {
+                "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj"
               }
             }
           }
@@ -199,18 +202,91 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+        "projectName": "WebApi.UnitTests",
+        "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\WII\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\Tests\\WebApi.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WII\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "MongoDB.Bson": {
+            "AutoMapper": {
               "target": "Package",
-              "version": "[2.17.1, )"
+              "version": "[5.2.0, )"
             },
-            "MongoDB.Driver": {
+            "FluentAssertions": {
               "target": "Package",
-              "version": "[2.17.1, )"
+              "version": "[5.10.3, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
@@ -224,9 +300,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vKt/iQBDId8ZDWlIzBWVroagK3R0FD1Mcqsi1Gkzmd00axn13qsT0aQhEKnEG3ubLDpREJBJVOnK4L82LCzBcw==",
+  "dgSpecHash": "jzM3FpsEqaL4yqs2Y3XqLpSQIszInVWOZZrPA7KWNO0tR5lo1PXVZg4xe1UFj9WTwjkvXkoN2Xo6qw5RHKEQgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
+  "projectFilePath": "C:\\Users\\WII\\Desktop\\Tödeb Bitirme Projesi\\InvoiceManagement\\EntityLayer\\EntityLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WII\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\WII\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",

@@ -1,6 +1,7 @@
 ﻿
 
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EntityLayer.Concrete
 {
@@ -8,6 +9,9 @@ namespace EntityLayer.Concrete
     {
         [Key]
         public int FlatId { get; set; }
+        public int UserId { get; set; }
+        [ForeignKey("UserId")]
+        public User User { get; set; }
         public string FlatOwnerName { get; set; }
         public string FlatNo { get; set; }
         public string FlatType { get; set; }

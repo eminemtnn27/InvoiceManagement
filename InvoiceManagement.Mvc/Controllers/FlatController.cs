@@ -20,7 +20,8 @@ namespace InvoiceManagement.Mvc.Controllers
         }
         [Authorize(Roles = "Admin,User")]
         public IActionResult Index()
-        { 
+        {
+            var d = _context.users.ToList();
             return View( _context.flats.ToList());
         }
         [Authorize(Roles = "Admin")]
