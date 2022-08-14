@@ -1,0 +1,57 @@
+﻿@model List<EntityLayer.Concrete.Flat>
+
+<div class="row container col-md d-flex justify-content-center">
+    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card"> 
+        <div class="card-body">
+             <a style="float: right;" asp-action="Create" asp-controller="Flat"   class="btn btn-outline-success">Yeni Ekle</a>
+        <h4 class="card-title">Daireler</h4>
+        <div class="table-responsive">
+            <table class="table">
+            <thead>
+                <tr> 
+                <th> Daire Sahibi Adı </th>
+                <th> Daire No </th>
+                <th> Daire Tipi</th>
+                <th> Bulunduğu Yer </th>
+                <th> Blok No </th>
+                <th> Durum </th>
+                <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var flat in Model )
+                    { <tr>
+                   
+                    <td>@flat.FlatOwnerName </td>
+                    <td>@flat.FlatNo </td>
+                    <td> @flat.FlatType</td>
+                    <td> @flat.FlatLocation</td>
+                    <td> @flat.BlockNo</td>
+                    <td>
+                        @if(@flat.Status==false)
+                        {
+                            <span>Boş</span>
+                        }
+                        else
+                        {
+                            <span>Dolu</span>
+                        }
+                    </td>                    
+                    <td>
+                       
+                        <a asp-action="Edit" asp-controller="Flat" asp-route-id="@flat.FlatId"  class="btn btn-outline-success">Düzenle</a>
+                        <form action="/Flat/Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="FlatId" value="@flat.FlatId">
+                        <button type="submit"  class="btn btn-outline-danger" >Sil</button>
+                        </form>
+                    </td> 
+                </tr>    
+                }               
+            </tbody>
+            </table> 
+        </div>
+        </div>
+    </div>
+    </div>
+</div>

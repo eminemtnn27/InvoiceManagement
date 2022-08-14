@@ -1,0 +1,17 @@
+C:\Users\WII\Desktop\7.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.csproj.AssemblyReference.cache
+C:\Users\WII\Desktop\7.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WII\Desktop\7.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.AssemblyInfoInputs.cache
+C:\Users\WII\Desktop\7.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.AssemblyInfo.cs
+C:\Users\WII\Desktop\7.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.csproj.CoreCompileInputs.cache
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\bin\Debug\net5.0\Hangfire.deps.json
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\bin\Debug\net5.0\Hangfire.dll
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\bin\Debug\net5.0\Hangfire.pdb
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.csproj.AssemblyReference.cache
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.AssemblyInfoInputs.cache
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.AssemblyInfo.cs
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.csproj.CoreCompileInputs.cache
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.dll
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\refint\Hangfire.dll
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\Hangfire.pdb
+C:\Users\WII\Desktop\13.08\InvoiceManagement\Hangfire\obj\Debug\net5.0\ref\Hangfire.dll

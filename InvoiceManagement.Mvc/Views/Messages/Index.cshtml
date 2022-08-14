@@ -1,0 +1,56 @@
+﻿@model List<EntityLayer.Concrete.Message>
+
+<div class="row container d-flex justify-content-center">
+    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+        <h4 class="card-title">Mesajlar</h4>
+        <div class="table-responsive">
+            <table class="table">
+            <thead>
+                <tr> 
+                <th> Mesaj No </th>
+                <th> Alıcı   </th>
+                <th> Gönderen </th>
+                <th> Konu </th>
+                <th> Mesaj </th>
+                <th> Mesaj Tarihi </th>
+                <th> Mesaj Durumu </th>
+                <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var msg in Model )
+                { 
+                        <tr>
+                        <td>@msg.MessageId </td>
+                        <td>@msg.User.Name </td>
+                        <td>@msg.User.UserRole</td>
+                        <td>@msg.Subject</td>
+                        <td>@msg.Messages</td>
+                        <td>@msg.MessageDate</td>
+                        <td>
+                            @if(@msg.MessageStatus==false)
+                            {
+                                <span>Okunmadı</span>
+                            }
+                            else
+                            {
+                                <span>Okundu</span>
+                            }
+                        </td>                    
+                        <td> 
+                            <form action="/Message/Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="MessageId" value="@msg.MessageId">
+                            <button type="submit"  class="btn btn-outline-danger" >Sil</button>
+                            </form>
+                        </td> 
+                    </tr>    
+                  }               
+            </tbody>
+            </table> 
+        </div>
+        </div>
+    </div>
+    </div>
+</div>

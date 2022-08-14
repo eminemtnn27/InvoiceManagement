@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AXRNWCWUPMc2X8906SfTrg9FxAe4MqkLSzO/8wESS38kLuKm0FKykon8qGeDKY/L6zTlCD0y9BPLyKL33cSXMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WII\\Desktop\\13.08\\InvoiceManagement\\Hangfire\\Hangfire.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WII\\.nuget\\packages\\hangfire.core\\1.7.30\\hangfire.core.1.7.30.nupkg.sha512",
+    "C:\\Users\\WII\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

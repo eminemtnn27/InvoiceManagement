@@ -1,0 +1,36 @@
+﻿@model InvoiceManagement.Mvc.Models.ViewModels.LoginModel
+@{
+    Layout = "_Layout2"; 
+}   
+    <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
+        <div class="card col-lg-4 mx-auto">
+            <div class="card-body px-5 py-5">
+            <h3 class="card-title text-left mb-3">Giriş Yap</h3>
+            <form asp-action="Login" asp-controller="Auth" >
+                <div class="form-group"> 
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" placeholder="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+                </div>
+                <div class="form-group d-flex align-items-center justify-content-between">
+                <div class="form-check">
+                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input"> Beni Hatırla </label>
+                </div>
+                <a href="#" class="forgot-pass">Şifremi Unuttum</a>
+                </div>
+                <div class="text-center">
+                <input type="submit" value="Login" class="btn btn-primary"placeholder="Giriş Yap" />
+                </div> 
+                <p class="sign-up">Hesabınız yok mu?<a asp-action="Register" asp-controller="Auth" > Kaydol</a></p>
+            </form>
+            </div>
+        </div>
+    </div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}        

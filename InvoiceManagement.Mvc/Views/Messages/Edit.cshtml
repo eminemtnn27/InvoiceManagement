@@ -1,0 +1,54 @@
+﻿@model EntityLayer.Concrete.Message 
+ 
+<div class="row container d-flex justify-content-center">
+    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body"> 
+         <form asp-action="Edit" asp-controller="Message" method="post" autocomplete="off">
+             <input type="hidden" asp-for="@Model.MessageId" value="@Model.MessageId" />
+            <div class="form-group row">
+            <label asp-for="SenderId" class="col-sm-2 col-form-label">@Model.SenderId</label>
+            <div class="col-sm-10">
+                <input asp-for="SenderId" class="form-control" value="@Model.SenderId" id="SenderId" placeholder="FlatOwnerName">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label asp-for="ReceiveId" class="col-sm-2 col-form-label">@Model.ReceiveId</label>
+            <div class="col-sm-10">
+                <input  asp-for="ReceiveId" class="form-control" id="ReceiveId" placeholder="ReceiveId">
+            </div>
+            </div> 
+            <div class="form-group row">
+            <label asp-for="Subject" class="col-sm-2 col-form-label">@Model.Subject</label>
+            <div class="col-sm-10">
+                <input asp-for="Subject" class="form-control" id="Subject" placeholder="Subject">
+            </div>
+            </div> 
+            <div class="form-group row">
+            <label asp-for="Messages" class="col-sm-2 col-form-label">@Model.Messages</label>
+            <div class="col-sm-10">
+                <input asp-for="Messages" class="form-control" id="Messages" placeholder="Messages">
+            </div>
+            </div> 
+            <div class="form-group row">
+            <label asp-for="MessageDate" class="col-sm-2 col-form-label">@Model.MessageDate</label>
+            <div class="col-sm-10">
+                <input asp-for="MessageDate" class="form-control" id="MessageDate" placeholder="MessageDate">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label asp-for="MessageStatus" class="col-sm-2 col-form-label">@Model.MessageStatus</label>
+            <div class="col-sm-10">
+                <input type="text" asp-for="MessageStatus" class="form-control" id="MessageStatus" placeholder="MessageStatus">
+            </div>
+            </div>   
+            <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Güncelle</button>
+            </div>
+            </div>
+        </form>
+        </div>
+    </div>
+    </div>
+</div>

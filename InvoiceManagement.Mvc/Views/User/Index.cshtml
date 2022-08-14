@@ -1,0 +1,47 @@
+﻿@model List<EntityLayer.Concrete.User> 
+<div class="row container  d-flex justify-content-center">
+    <div class="col-lg-15 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <a style="float: right;" asp-action="Create" asp-controller="User"  class="btn btn-outline-success text-right">Yeni Ekle</a>
+       <h4 class="card-title">Kullanıcılar</h4>
+        <div class="table-responsive">
+            <table class="table">
+            <thead>
+                <tr> 
+                <th> Daire Sahibi Adı </th>
+                <th> Daire Sahibi Soyadı </th>
+                <th> Tc No</th>
+                <th> Mail Adresi </th>
+                <th> Tel No </th>
+                <th> Plaka </th>
+                <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model )
+                    { <tr>
+                   
+                    <td>@user.Name </td>
+                    <td>@user.Surname </td>
+                    <td> @user.TcNo</td>
+                    <td> @user.Email</td>
+                    <td> @user.PhoneNo</td>
+                    <td> @user.NumberPlate</td>                    
+                    <td>
+                        <a asp-action="Edit" asp-controller="User" asp-route-id="@user.UserId"  class="btn btn-outline-success">Düzenle</a>
+                        <form action="/User/Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="UserId" value="@user.UserId">
+                        <button type="submit"  class="btn btn-outline-danger" >Sil</button>
+                            
+                        </form>
+                    </td> 
+                </tr>    
+                }               
+            </tbody>
+            </table> 
+        </div>
+        </div>
+    </div>
+    </div>
+</div>

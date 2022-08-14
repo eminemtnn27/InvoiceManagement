@@ -1,0 +1,53 @@
+﻿@model EntityLayer.Concrete.Flat 
+ 
+<div class="row container d-flex justify-content-center">
+    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body"> 
+         <form asp-action="Create" asp-controller="Flat" method="post" autocomplete="off"> 
+            <div class="form-group row">
+            <label asp-for="FlatOwnerName" class="col-sm-2 col-form-label"> </label>
+            <div class="col-sm-10">
+                <input asp-for="FlatOwnerName" class="form-control"  id="FlatOwnerName" placeholder="FlatOwnerName">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label asp-for="FlatNo" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input  asp-for="FlatNo" class="form-control" id="FlatNo" placeholder="FlatNo">
+            </div>
+            </div> 
+            <div class="form-group row">
+            <label asp-for="FlatType" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="FlatType" class="form-control" id="FlatType" placeholder="FlatType">
+            </div>
+            </div> 
+            <div class="form-group row">
+            <label asp-for="FlatLocation" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="FlatLocation" class="form-control" id="FlatLocation" placeholder="FlatLocation">
+            </div>
+            </div> 
+            <div class="form-group row">
+            <label asp-for="BlockNo" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="BlockNo" class="form-control" id="BlockNo" placeholder="BlockNo">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label asp-for="Status" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input type="text" asp-for="Status" class="form-control" id="Status" placeholder="Status">
+            </div>
+            </div>   
+            <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Ekle</button>
+            </div>
+            </div>
+        </form>
+        </div>
+    </div>
+    </div>
+</div>
